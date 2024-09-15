@@ -26,6 +26,13 @@ h1 {
     color: #333;
 }
 
+h2 {
+    color: #444;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -36,11 +43,12 @@ li {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .icons img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -57,4 +65,9 @@ footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
