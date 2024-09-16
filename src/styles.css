@@ -1,18 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
 .container {
     width: 80%;
     margin: auto;
@@ -22,28 +7,21 @@ header {
     margin-top: 20px;
 }
 
-h1 {
-    color: #333;
+.tool-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre as ferramentas */
 }
 
-h2 {
-    color: #444;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
+.tool {
     background: #eee;
-    margin: 10px 0;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    flex: 1;
+    min-width: 45%; /* Ajusta o tamanho mínimo dos itens */
+    box-sizing: border-box;
 }
 
 .icons img {
@@ -53,21 +31,4 @@ li {
     margin-right: 5px;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
+/* Outros estilos podem ser adicionados conforme necessário */
