@@ -22,4 +22,4 @@ Cheat Sheets: Guides for Linux commands, network layers, DevOps tools, and more.
 CTF (Capture The Flag) Challenges: Access to platforms like TryHackMe, PicoCTF, and RootMe to practice hacking skills.
 Certification Roadmaps: Resources for those looking to pursue certifications in cybersecurity.
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1454057" style='border:none;'></iframe>
+
