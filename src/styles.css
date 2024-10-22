@@ -1,5 +1,16 @@
 /* Resetando algumas configurações padrão */
-body, h1, h2, h3, p, ul {
+body, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Honk', sans-serif;
+}
+
+p {
+    text-align: justify;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -100,6 +111,7 @@ footer {
 }
 
 footer p {
+    text-align: center;
     margin: 5px 0;
 }
 
